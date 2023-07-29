@@ -1,3 +1,4 @@
+const timer = document.getElementById("timer");
 const container = document.getElementById("container");
 const text = document.getElementById("text");
 
@@ -21,3 +22,5 @@ function breathAnimation() {
 }
 
 setInterval(breathAnimation, totalTime);
+
+function timerCount() {}
